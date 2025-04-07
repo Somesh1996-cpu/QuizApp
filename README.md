@@ -1,12 +1,28 @@
-# React + Vite
+🎯 QuizApp
+QuizApp is a ReactJS-based web application that allows users to take assessments by solving multiple-choice questions (MCQs). The application ensures a seamless user experience with validations, scoring, and a final result display.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
+Interactive Quiz: Users can solve MCQs one question at a time.
+Option Selection Validation: Users cannot proceed to the next question without selecting an option.
+Dynamic Scoring: Scores are calculated in real-time using a score state variable.
+Final Score Display: Once all questions are answered, users are presented with their final score.
+User-Friendly Interface: The application provides a smooth and intuitive interface for taking quizzes.
+🚀 How It Works
+Start the Quiz:
 
-Currently, two official plugins are available:
+The quiz begins with the first question displayed on the screen.
+Option Selection:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Users must select an option to enable the "Next" button.
+If no option is selected, the user cannot proceed to the next question.
+Score Calculation:
 
-## Expanding the ESLint configuration
+The score is updated dynamically based on the correctness of the selected options.
+Final Score:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Once the user completes all questions, the application displays the final score out of the total number of questions.
+🛠️ Technologies Used
+ReactJS: Frontend framework for building the user interface.
+State Management: Managed using React's useState and useEffect hooks.
+CSS: For styling the application.
+Screenshot 2025-01-06 at 12 35 45 PM
